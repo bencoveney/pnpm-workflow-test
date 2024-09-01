@@ -8,7 +8,8 @@
     "dev-site2": "pnpm --filter=@pnpm-workflow-test/site2 run dev",
     "preview-site1": "pnpm --filter=@pnpm-workflow-test/site1 run preview",
     "preview-site2": "pnpm --filter=@pnpm-workflow-test/site2 run preview",
-    "typecheck": "pnpm --parallel --filter=./sites/* --filter=./packages/* run typecheck"
+    "typecheck": "pnpm --parallel --filter=./sites/* --filter=./packages/* run typecheck",
+    "ci:publish": "pnpm publish -r"
   },
   "engines": {
     "node": ">=20",

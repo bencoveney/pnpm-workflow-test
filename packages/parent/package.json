@@ -1,8 +1,15 @@
 {
   "name": "@pnpm-workflow-test/parent",
   "version": "1.0.0",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "typecheck": "tsc --noEmit"
+  },
+  "files": [
+    "./src/*"
+  ],
+  "exports": {
+    "./*": "./src/*"
   },
   "dependencies": {
     "@pnpm-workflow-test/child": "workspace:*"

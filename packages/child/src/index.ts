@@ -1,1 +1,1 @@
-console.log("Hello from child");
+export const valueFromChild = "Child package";

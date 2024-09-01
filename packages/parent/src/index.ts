@@ -1,3 +1,3 @@
-import "@pnpm-workflow-test/child";
+import { valueFromChild } from "@pnpm-workflow-test/child/index.js";
 
-console.log("Hello from parent");
+export const valueFromParent = `Parent of ${valueFromChild}`;

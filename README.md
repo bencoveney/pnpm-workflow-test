@@ -38,3 +38,7 @@ Values in `.npmrc` files may contain env variables using the `${NAME}`, `${NAME-
   - [ ] TypeScript.
   - [ ] Eslint.
   - [ ] Jest.
+
+## Misc:
+
+- Changesets needs "Allow GitHub Actions to create and approve pull requests"

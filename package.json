@@ -1,0 +1,21 @@
+{
+  "name": "pnpm-workflow-test",
+  "version": "1.0.0",
+  "scripts": {
+    "lint": "pnpm --parallel --filter=./sites/* run lint",
+    "build": "pnpm --parallel --filter=./sites/* run build",
+    "dev-site1": "pnpm --filter=@pnpm-workflow-test/site1 run dev",
+    "dev-site2": "pnpm --filter=@pnpm-workflow-test/site2 run dev",
+    "preview-site1": "pnpm --filter=@pnpm-workflow-test/site1 run preview",
+    "preview-site2": "pnpm --filter=@pnpm-workflow-test/site2 run preview"
+  },
+  "engines": {
+    "node": ">=20",
+    "pnpm": ">=9"
+  },
+  "packageManager": "pnpm@9.9.0+sha256.7a4261e50d9a44d9240baf6c9d6e10089dcf0a79d0007f2a26985a6927324177",
+  "devDependencies": {
+    "@types/node": "^22.5.2",
+    "typescript": "^5.5.4"
+  }
+}

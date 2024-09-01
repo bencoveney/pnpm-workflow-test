@@ -1,1 +1,1 @@
-export const valueFromChild = "Child package";
+export const valueFromChild = "the child package";

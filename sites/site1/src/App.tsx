@@ -1,4 +1,4 @@
-import { valueFromParent } from "@pnpm-workflow-test/parent/index.js";
+import { valueFromParent } from "@bencoveney/parent/index.js";
 import { useState } from "react";
 
 function App() {

@@ -1,4 +1,4 @@
-# @pnpm-workflow-test/child
+# @bencoveney/child
 
 ## 1.3.0
 

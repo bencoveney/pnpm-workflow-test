@@ -1,5 +1,12 @@
 # @bencoveney/parent
 
+## 1.0.5
+
+### Patch Changes
+
+- Updated dependencies [57b744d]
+  - @bencoveney/child@1.5.0
+
 ## 1.0.4
 
 ### Patch Changes

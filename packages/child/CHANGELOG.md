@@ -1,5 +1,11 @@
 # @bencoveney/child
 
+## 1.5.0
+
+### Minor Changes
+
+- 57b744d: Just testing
+
 ## 1.4.0
 
 ### Minor Changes

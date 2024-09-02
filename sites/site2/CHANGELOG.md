@@ -1,5 +1,12 @@
 # @pnpm-workflow-test/site2
 
+## 1.0.3
+
+### Patch Changes
+
+- Updated dependencies [8586580]
+  - @pnpm-workflow-test/child@1.3.0
+
 ## 1.0.2
 
 ### Patch Changes

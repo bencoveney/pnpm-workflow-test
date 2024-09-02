@@ -42,3 +42,4 @@ Values in `.npmrc` files may contain env variables using the `${NAME}`, `${NAME-
 ## Misc:
 
 - Changesets needs "Allow GitHub Actions to create and approve pull requests"
+- https://docs.github.com/en/packages/working-with-a-github-packages-registry/working-with-the-npm-registry#publishing-multiple-packages-to-the-same-repository

@@ -1,6 +1,11 @@
 {
+<<<<<<< Updated upstream
   "name": "@pnpm-workflow-test/site1",
   "version": "1.0.3",
+=======
+  "name": "@bencoveney/site1",
+  "version": "1.0.2",
+>>>>>>> Stashed changes
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -12,7 +17,7 @@
   "dependencies": {
     "react": "catalog:",
     "react-dom": "catalog:",
-    "@pnpm-workflow-test/parent": "workspace:*"
+    "@bencoveney/parent": "workspace:*"
   },
   "devDependencies": {
     "@eslint/js": "catalog:",
@@ -26,5 +31,12 @@
     "typescript": "catalog:",
     "typescript-eslint": "catalog:",
     "vite": "catalog:"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bencoveney/pnpm-workflow-test.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
   }
 }

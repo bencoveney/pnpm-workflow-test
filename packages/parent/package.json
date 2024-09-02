@@ -1,6 +1,11 @@
 {
+<<<<<<< Updated upstream
   "name": "@pnpm-workflow-test/parent",
   "version": "1.0.3",
+=======
+  "name": "@bencoveney/parent",
+  "version": "1.0.2",
+>>>>>>> Stashed changes
   "type": "module",
   "scripts": {
     "typecheck": "tsc --noEmit"
@@ -12,6 +17,13 @@
     "./*": "./src/*"
   },
   "dependencies": {
-    "@pnpm-workflow-test/child": "workspace:*"
+    "@bencoveney/child": "workspace:*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bencoveney/pnpm-workflow-test.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
   }
 }

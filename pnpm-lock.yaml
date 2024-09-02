@@ -64,13 +64,13 @@ importers:
 
   packages/parent:
     dependencies:
-      '@pnpm-workflow-test/child':
+      '@bencoveney/child':
         specifier: workspace:*
         version: link:../child
 
   sites/site1:
     dependencies:
-      '@pnpm-workflow-test/parent':
+      '@bencoveney/parent':
         specifier: workspace:*
         version: link:../../packages/parent
       react:
@@ -116,7 +116,7 @@ importers:
 
   sites/site2:
     dependencies:
-      '@pnpm-workflow-test/child':
+      '@bencoveney/child':
         specifier: workspace:*
         version: link:../../packages/child
       react:

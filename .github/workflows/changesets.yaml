@@ -18,14 +18,11 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           cache: "pnpm"
+          registry-url: "https://npm.pkg.github.com"
       - run: pnpm install
       - uses: changesets/action@v1
         with:
-          version: pnpm ci:version
-          publish: pnpm ci:publish
+          version: pnpm changeset version
+          publish: pnpm publish -r
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      - name: Publish package
-        run: npm publish
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}

@@ -1,1 +1,1 @@
-export const valueFromChild = "the remarkable child package";
+export const valueFromChild = "the nice child package";

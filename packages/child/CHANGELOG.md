@@ -1,5 +1,11 @@
 # @bencoveney/child
 
+## 1.4.0
+
+### Minor Changes
+
+- 3aaf606: Another string tweak
+
 ## 1.3.0
 
 ### Minor Changes

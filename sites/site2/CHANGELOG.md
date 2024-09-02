@@ -1,5 +1,12 @@
 # @bencoveney/site2
 
+## 1.0.4
+
+### Patch Changes
+
+- Updated dependencies [3aaf606]
+  - @bencoveney/child@1.4.0
+
 ## 1.0.3
 
 ### Patch Changes

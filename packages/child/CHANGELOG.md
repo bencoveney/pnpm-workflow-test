@@ -1,5 +1,11 @@
 # @bencoveney/child
 
+## 1.5.1
+
+### Patch Changes
+
+- 05ed16d: Set up linting
+
 ## 1.5.0
 
 ### Minor Changes

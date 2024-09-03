@@ -1,0 +1,23 @@
+{
+  "name": "@bencoveney/eslint",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {},
+  "dependencies": {
+    "@eslint/js": "^9.9.0",
+    "eslint": "^9.9.0",
+    "eslint-plugin-react-hooks": "^5.1.0-rc.0",
+    "eslint-plugin-react-refresh": "^0.4.9",
+    "typescript": "catalog:",
+    "typescript-eslint": "^8.0.1",
+    "globals": "^15.9.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bencoveney/pnpm-workflow-test.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  }
+}

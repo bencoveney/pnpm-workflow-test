@@ -15,16 +15,11 @@
     "@bencoveney/parent": "workspace:*"
   },
   "devDependencies": {
-    "@eslint/js": "catalog:",
+    "@bencoveney/eslint": "workspace:*",
     "@types/react": "catalog:",
     "@types/react-dom": "catalog:",
     "@vitejs/plugin-react": "catalog:",
-    "eslint": "catalog:",
-    "eslint-plugin-react-hooks": "catalog:",
-    "eslint-plugin-react-refresh": "catalog:",
-    "globals": "catalog:",
     "typescript": "catalog:",
-    "typescript-eslint": "catalog:",
     "vite": "catalog:"
   },
   "repository": {

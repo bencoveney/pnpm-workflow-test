@@ -3,6 +3,7 @@
   "version": "1.0.5",
   "type": "module",
   "scripts": {
+    "lint": "eslint .",
     "typecheck": "tsc --noEmit"
   },
   "files": [
@@ -13,6 +14,9 @@
   },
   "dependencies": {
     "@bencoveney/child": "workspace:*"
+  },
+  "devDependencies": {
+    "@bencoveney/eslint": "workspace:*"
   },
   "repository": {
     "type": "git",

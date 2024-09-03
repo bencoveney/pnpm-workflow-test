@@ -24,10 +24,10 @@ Values in `.npmrc` files may contain env variables using the `${NAME}`, `${NAME-
 
 ## Goals to show:
 
-- [ ] Sites, packages, tools living in one repository.
-- [ ] What happens when we publish.
-  - [ ] Can we version and ship to github packages.
-  - [ ] Can we use changesets.
+- [/] Sites, packages, tools living in one repository.
+- [/] What happens when we publish.
+  - [/] Can we version and ship to github packages.
+  - [/] Can we use changesets.
 - [ ] What happens in CI.
   - [ ] Can we limit checks to changed packages.
   - [ ] Can we publish packages.
@@ -35,8 +35,8 @@ Values in `.npmrc` files may contain env variables using the `${NAME}`, `${NAME-
   - [ ] Hosting the site.
   - [ ] Running from within docker.
 - [ ] How would tooling configuration work.
-  - [ ] TypeScript.
-  - [ ] Eslint.
+  - [/] TypeScript.
+  - [/] Eslint.
   - [ ] Jest.
 
 ## Misc:
